@@ -1,0 +1,223 @@
+0x0000161f <+0>:    lea    0x4(%esp), %ecx
+0x00001623 <+4>:    and    $0xfffffff0, %esp
+0x00001626 <+7>:    push   -0x4(%ecx)
+0x00001629 <+10>:   push   %ebp
+0x0000162a <+11>:   mov    %esp, %ebp
+0x0000162c <+13>:   push   %ebx
+0x0000162d <+14>:   push   %ecx
+0x0000162e <+15>:   sub    $0x20, %esp
+0x00001631 <+18>:   call   0x1300 <__x86.get_pc_thunk.bx>
+0x00001636 <+23>:   add    $0x48fa, %ebx
+0x0000163c <+29>:   mov    %gs:0x14, %eax
+0x00001642 <+35>:   mov    %eax, -0xc(%ebp)
+0x00001645 <+38>:   xor    %eax, %eax
+0x00001647 <+40>:   sub    $0x8, %esp
+0x0000164a <+43>:   lea    -0x4b33(%ebx), %eax
+0x00001650 <+49>:   push   %eax
+0x00001651 <+50>:   push   $0x2
+0x00001653 <+52>:   call   0x1110 <signal@plt>
+0x00001658 <+57>:   add    $0x10, %esp
+0x0000165b <+60>:   sub    $0x8, %esp
+0x0000165e <+63>:   mov    $0x0
+0x00001660 <+65>:   lea    0x19778(%ebx), %eax
+0x00001666 <+71>:   push   %eax
+0x00001667 <+72>:   call   0x1100 <pthread_mutex_init@plt>
+0x0000166c <+77>:   add    $0x10, %esp
+0x0000166f <+80>:   push   $0x0
+0x00001671 <+82>:   lea    -0x4ae9(%ebx), %eax
+0x00001677 <+88>:   push   %eax
+0x00001678 <+89>:   push   $0x0
+0x0000167a <+91>:   lea    0x19774(%ebx), %eax
+0x00001680 <+97>:  push   %eax
+0x00001681 <+98>:  call   0x1230 <pthread_create@plt>
+0x00001686 <+103>:  add    $0x10, %esp
+0x00001689 <+106>:  sub    $0x8, %esp
+0x0000168c <+109>:  lea    -0x20(%ebp), %eax
+0x0000168f <+112>:  push   %eax
+0x00001690 <+113>:  lea    -0x1f28(%ebx), %eax
+0x00001696 <+119>:  push   %eax
+0x00001697 <+120>:  call   0x1250 <__isoc99_scanf@plt>
+0x0000169c <+125>:  add    $0x10, %esp
+0x0000169f <+128>:  mov    -0x20(%ebp), %eax
+0x000016a2 <+131>:  test   %eax, %eax
+0x000016a4 <+133>:  js     0x16b0 <main+145>
+0x000016a6 <+135>:  mov    -0x20(%ebp), %eax
+0x000016a9 <+138>:  cmp    $0xf, %eax
+0x000016ac <+141>:  jg     0x16b0 <main+145>
+0x000016ae <+143>:  jmp    0x16b2 <main+147>
+0x000016b0 <+145>:  jmp    0x16b0 <main+145>
+0x000016b2 <+147>:  mov    -0x20(%ebp), %eax
+0x000016b5 <+150>:  sub    $0x4, %esp
+0x000016b8 <+153>:  push   $0x4
+0x000016ba <+155>:  lea    -0x11(%ebp), %edx
+0x000016bd <+158>:  push   %edx
+0x000016be <+159>:  push   %eax
+0x000016bf <+160>:  call   0x15bb <itob>
+0x000016c4 <+165>:  add    $0x10, %esp
+0x000016c7 <+168>:  sub    $0x8, %esp
+0x000016ca <+171>:  lea    -0x11(%ebp), %eax
+0x000016cd <+174>:  push   %eax
+0x000016ce <+175>:  lea    0x244(%ebx), %eax
+0x000016d4 <+181>:  push   %eax
+0x000016d5 <+182>:  call   0x1528 <b_search>
+0x000016da <+187>:  add    $0x10, %esp
+0x000016dd <+190>:  mov    %eax, -0x1c(%ebp)
+0x000016e0 <+193>:  movl   $0x1a5, -0x18(%ebp)
+0x000016e7 <+200>:  sub    $0x8, %esp
+0x000016ea <+203>:  push   -0x1c(%ebp)
+0x000016ed <+206>:  lea    -0x1f25(%ebx), %eax
+0x000016f3 <+212>:  push   %eax
+0x000016f4 <+213>:  call   0x1090 <printf@plt>
+0x000016f9 <+218>:  add    $0x10, %esp
+0x000016fc <+221>:  mov    -0x1c(%ebp), %eax
+0x000016ff <+224>:  cmp    -0x18(%ebp), %eax
+0x00001702 <+227>:  jne    0x1734 <main+277>
+0x00001704 <+229>:  sub    $0xc, %esp
+0x00001707 <+232>:  lea    0x19778(%ebx), %eax
+0x0000170d <+238>:  push   %eax
+0x0000170e <+239>:  call   0x1160 <pthread_mutex_lock@plt>
+0x00001713 <+244>:  add    $0x10, %esp
+0x00001716 <+247>:  movl   $0xffffffff, 0xd8(%ebx)
+0x00001720 <+257>:  sub    $0xc, %esp
+0x00001723 <+260>:  lea    0x19778(%ebx), %eax
+0x00001729 <+266>:  push   %eax
+0x0000172a <+267>:  call   0x1030 <pthread_mutex_unlock@plt>
+0x0000172f <+272>:  add    $0x10,%esp
+0x00001732 <+275>:  jmp    0x1739 <main+282>
+0x00001734 <+277>:  call   0x2e95 <trap>
+0x00001739 <+282>:  mov    0x19774(%ebx),%eax
+0x0000173f <+288>:  sub    $0x8,%esp
+0x00001742 <+291>:  push   $0x0
+0x00001744 <+293>:  push   %eax
+0x00001745 <+294>:  call   0x1270 <pthread_join@plt>
+0x0000174a <+299>:  add    $0x10,%esp
+0x0000174d <+302>:  sub    $0xc,%esp
+0x00001750 <+305>:  lea    0x19778(%ebx),%eax
+0x00001756 <+311>:  push   %eax
+0x00001757 <+312>:  call   0x1160 <pthread_mutex_lock@plt>
+0x0000175c <+317>:  add    $0x10,%esp
+0x0000175f <+320>:  sub    $0xc,%esp
+0x00001762 <+323>:  lea    0x19778(%ebx),%eax
+0x00001768 <+329>:  push   %eax
+0x00001769 <+330>:  call   0x1070 <pthread_mutex_destroy@plt>
+0x0000176e <+335>:  add    $0x10,%esp
+0x00001771 <+338>:  sub    $0xc,%esp
+0x00001774 <+341>:  lea    -0x1f0c(%ebx),%eax
+0x0000177a <+347>:  push   %eax
+0x0000177b <+348>:  call   0x11a0 <puts@plt>
+0x00001780 <+353>:  add    $0x10,%esp
+0x00001783 <+356>:  mov    $0x0,%eax
+0x00001788 <+361>:  mov    -0xc(%ebp),%edx
+0x0000178b <+364>:  sub    %gs:0x14,%edx
+0x00001791 <+371>:  je     0x1799 <main+378>
+0x00001794 <+373>:  call   0x3f80 <__stack_chk_fail_local>
+0x00001799 <+378>:  lea    -0x8(%ebp),%esp
+0x0000179c <+381>:  pop    %ecx
+0x0000179d <+382>:  pop    %ebx
+0x0000179e <+383>:  pop    %ebp
+0x0000179f <+384>:  lea    -0x4(%ecx),%esp
+0x000017a2 <+387>:  ret
+
+
+
+
+
+
+itob :
+
+0x000015bb <+0>:    push   %ebp
+0x000015bc <+1>:    mov    %esp,%ebp
+0x000015be <+3>:    sub    $0x10,%esp
+0x000015c1 <+6>:    call   0x17a3 <__x86.get_pc_thunk.ax>
+0x000015c6 <+11>:   add    $0x496a,%eax
+0x000015cb <+16>:   mov    0x10(%ebp), %eax
+0x000015ce <+19>:   sub    $0x1,%eax
+0x000015d1 <+22>:   mov    %eax,-0x4(%ebp)
+0x000015d4 <+25>:   jmp    0x160b <itob+80>
+0x000015d6 <+27>:   mov    -0x4(%ebp),%eax
+0x000015d9 <+30>:   mov    0x8(%ebp),%edx
+0x000015dc <+33>:   mov    %eax,%ecx
+0x000015de <+35>:   sar    %cl,%edx
+0x000015e0 <+37>:   mov    %edx,%eax
+0x000015e2 <+39>:   and    $0x1,%eax
+0x000015e5 <+42>:   test   %eax,%eax
+0x000015e7 <+44>:   je     0x15f0 <itob+53>
+0x000015e9 <+46>:   mov    $0x31,%edx
+0x000015ee <+51>:   jmp    0x15f5 <itob+58>
+0x000015f0 <+53>:   mov    $0x30,%edx
+0x000015f5 <+58>:   mov    0x10(%ebp),%eax
+0x000015f8 <+61>:   sub    $0x1,%eax
+0x000015fb <+64>:   sub    -0x4(%ebp),%eax
+0x000015fe <+67>:   mov    %eax,%ecx
+0x00001600 <+69>:   mov    0xc(%ebp),%eax
+0x00001603 <+72>:   add    %ecx,%eax
+0x00001605 <+74>:   mov    %dl,(%eax)
+0x00001607 <+76>:   subl   $0x1,-0x4(%ebp)
+0x0000160b <+80>:   cmpl   $0x0,-0x4(%ebp)
+0x0000160f <+84>:   jns    0x15d6 <itob+27>
+0x00001611 <+86>:   mov    0x10(%ebp),%edx
+0x00001614 <+89>:   mov    0xc(%ebp),%eax
+0x00001617 <+92>:   add    %edx,%eax
+0x00001619 <+94>:   movb   $0x0,(%eax)
+0x0000161c <+97>:   nop
+0x0000161d <+98>:   leave
+0x0000161e <+99>:   ret
+
+b_search :
+
+0x00001528 <+0>:    push   %ebp
+0x00001529 <+1>:    mov    %esp, %ebp
+0x0000152b <+3>:    sub    $0x10, %esp
+0x0000152e <+6>:    call   0x17a3 <__x86.get_pc_thunk.ax>
+0x00001533 <+11>:   add    $0x49fd, %eax
+0x00001538 <+16>:   mov    0x8(%ebp), %eax
+0x0000153b <+19>:   mov    %eax, -0xc(%ebp)
+0x0000153e <+22>:   mov    -0xc(%ebp), %eax
+0x00001541 <+25>:   mov    (%eax), %eax
+0x00001543 <+27>:   mov    %eax, -0x8(%ebp)
+0x00001546 <+30>:   movl   $0x0, -0x4(%ebp)
+0x0000154d <+37>:   jmp    0x15a1 <b_search+121>
+0x0000154f <+39>:   mov    -0x4(%ebp), %edx
+0x00001552 <+42>:   mov    0xc(%ebp), %eax
+0x00001555 <+45>:   add    %edx, %eax
+0x00001557 <+47>:   movzbl (%eax), %eax
+0x0000155a <+50>:   cmp    $0x30, %al
+0x0000155c <+52>:   jne    0x1573 <b_search+75>
+0x0000155e <+54>:   mov    -0xc(%ebp), %eax
+0x00001561 <+57>:   mov    0x4(%eax), %eax
+0x00001564 <+60>:   test   %eax, %eax
+0x00001566 <+62>:   je     0x15b2 <b_search+138>
+0x00001568 <+64>:   mov    -0xc(%ebp), %eax
+0x0000156b <+67>:   mov    0x4(%eax), %eax
+0x0000156e <+70>:   mov    %eax, -0xc(%ebp)
+0x00001571 <+73>:   jmp    0x1595 <b_search+109>
+0x00001573 <+75>:   mov    -0x4(%ebp), %edx
+0x00001576 <+78>:   mov    0xc(%ebp), %eax
+0x00001579 <+81>:   add    %edx, %eax
+0x0000157b <+83>:   movzbl (%eax), %eax
+0x0000157e <+86>:   cmp    $0x31, %al
+0x00001580 <+88>:   jne    0x1595 <b_search+109>
+0x00001582 <+90>:    mov    -0xc(%ebp), %eax
+0x00001585 <+93>:    mov    0x8(%eax), %eax
+0x00001588 <+96>:    test   %eax, %eax
+0x0000158a <+98>:    je     0x15b5 <b_search+141>
+0x0000158c <+100>:   mov    -0xc(%ebp), %eax
+0x0000158f <+103>:   mov    0x8(%eax), %eax
+0x00001592 <+106>:   mov    %eax, -0xc(%ebp)
+0x00001595 <+109>:   mov    -0xc(%ebp), %eax
+0x00001598 <+112>:   mov    (%eax), %eax
+0x0000159a <+114>:   mov    %eax, -0x8(%ebp)
+0x0000159d <+117>:   addl   $0x1, -0x4(%ebp)
+0x000015a1 <+121>:   mov    -0x4(%ebp), %edx
+0x000015a4 <+124>:   mov    0xc(%ebp), %eax
+0x000015a7 <+127>:   add    %edx, %eax
+0x000015a9 <+129>: movzbl (%eax), %eax
+0x000015ac <+132>: test   %al, %al
+0x000015ae <+134>: jne    0x154f <b_search+39>
+0x000015b0 <+136>: jmp    0x15b6 <b_search+142>
+0x000015b2 <+138>: nop
+0x000015b3 <+139>: jmp    0x15b6 <b_search+142>
+0x000015b5 <+141>: nop
+0x000015b6 <+142>: mov    -0x8(%ebp), %eax
+0x000015b9 <+145>: leave
+0x000015ba <+146>: ret
