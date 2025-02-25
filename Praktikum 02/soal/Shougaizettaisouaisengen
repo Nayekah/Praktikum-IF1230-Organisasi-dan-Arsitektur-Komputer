@@ -1,0 +1,225 @@
+Dump of assembler code for function Shougaizettaisouaisengen :
+
+0x00001e36 <+0>:   push    %ebp
+0x00001e37 <+1>:   mov     %esp, %ebp
+0x00001e39 <+3>:   push    %ebx
+0x00001e3a <+4>:   sub     $0x24, %esp
+0x00001e3d <+7>:   call    0x12b0 <__x86.get_pc_thunk.bx>
+0x00001e42 <+12>:  add     $0x5102, %ebx
+0x00001e48 <+18>:  sub     $0xc, %esp
+0x00001e4b <+21>:  push    $0x8(%ebp)
+0x00001e4e <+24>:  call    0x2703 <string_length>
+0x00001e53 <+29>:  add     $0x10, %esp
+0x00001e56 <+32>:  mov     %eax, -0xc(%ebp)
+0x00001e59 <+35>:  cmpl    $0x9, -0xc(%ebp)
+0x00001e5d <+39>:  je      0x1e64 <Shougaizettaisouaisengen+46>
+0x00001e5f <+41>:  call    0x2d4b <trap>
+0x00001e64 <+46>:  movl    $0x0, -0x18(%ebp)
+0x00001e6b <+53>:  movl    $0x0, -0x14(%ebp)
+0x00001e72 <+60>:  movl    $0x0, -0x20(%ebp)
+0x00001e79 <+67>:  jmp     0x1ef9 <Shougaizettaisouaisengen+195>
+0x00001e7b <+69>:  mov     -0x20(%ebp), %eax
+0x00001e7e <+72>:  shl     $0x2, %eax
+0x00001e81 <+75>:  mov     %eax, %edx
+0x00001e83 <+77>:  mov     0x8(%ebp), %eax
+0x00001e86 <+80>:  add     %edx, %eax
+0x00001e88 <+82>:  movzbl  (%eax), %eax
+0x00001e8b <+85>:  movsbl  %al, %eax
+0x00001e8e <+88>:  lea     -0x30(%eax), %ecx
+0x00001e91 <+91>:  mov     $0x38e38e39, %edx
+0x00001e96 <+96>:  mov     %ecx, %eax
+0x00001e98 <+98>:  imul    %edx
+0x00001e9a <+100>: sar     $1, %edx
+0x00001e9c <+102>: mov     %ecx, %eax
+0x00001e9e <+104>: sar     $0x1f, %eax
+0x00001ea1 <+107>: sub     %eax, %edx
+0x00001ea3 <+109>: mov     %edx, %eax
+0x00001ea5 <+111>: shl     $0x3, %eax
+0x00001ea8 <+114>: add     %edx, %eax
+0x00001eaa <+116>: sub     %eax, %ecx
+0x00001eac <+118>: mov     %ecx, %edx
+0x00001eae <+120>: mov     0xcfc(%ebx,%edx,4), %eax
+0x00001eb5 <+127>: add     %eax, -0x18(%ebp)
+0x00001eb8 <+130>: mov     -0x20(%ebp), %eax
+0x00001ebb <+133>: add     %eax, %eax
+0x00001ebd <+135>: lea     0x2(%eax), %edx
+0x00001ec0 <+138>: mov     0x8(%ebp), %eax
+0x00001ec3 <+141>: add     %edx, %eax
+0x00001ec5 <+143>: movzbl  (%eax), %eax
+0x00001ec8 <+146>: movsbl  %al, %eax
+0x00001ecb <+149>: lea     -0x30(%eax), %ecx
+0x00001ece <+152>: mov     $0x38e38e39, %edx
+0x00001ed3 <+157>: mov     %ecx, %eax
+0x00001ed5 <+159>: imul    %edx
+0x00001ed7 <+161>: sar     $1, %edx
+0x00001ed9 <+163>: mov     %ecx, %eax
+0x00001edb <+165>: sar     $0x1f, %eax
+0x00001ede <+168>: sub     %eax, %edx
+0x00001ee0 <+170>: mov     %edx, %eax
+0x00001ee2 <+172>: shl     $0x3, %eax
+0x00001ee5 <+175>: add     %edx, %eax
+0x00001ee7 <+177>: sub     %eax, %ecx
+0x00001ee9 <+179>: mov     %ecx, %edx
+0x00001eeb <+181>: mov     0xcfc(%ebx,%edx,4), %eax
+0x00001ef2 <+188>: add     %eax, -0x14(%ebp)
+0x00001ef5 <+191>: addl    $0x1, -0x20(%ebp)
+0x00001ef9 <+195>: cmpl    $0x2, -0x20(%ebp)
+0x00001efd <+199>: jle     0x1e7b <Shougaizettaisouaisengen+69>
+0x00001f03 <+205>: mov     -0x18(%ebp), %eax
+0x00001f06 <+208>: cmp     -0x14(%ebp), %eax
+0x00001f09 <+211>: je      0x1f10 <Shougaizettaisouaisengen+218>
+0x00001f0b <+213>: call    0x2d4b <trap>
+0x00001f10 <+218>: movl    $0x0, -0x20(%ebp)
+0x00001f17 <+225>: jmp     0x1fe7 <Shougaizettaisouaisengen+433>
+0x00001f1c <+230>: movl    $0x0, -0x14(%ebp)
+0x00001f23 <+237>: movl    $0x0, -0x10(%ebp)
+0x00001f2a <+244>: movl    $0x0, -0x1c(%ebp)
+0x00001f31 <+251>: jmp     0x1fc4 <Shougaizettaisouaisengen+398>
+0x00001f36 <+256>: mov     -0x20(%ebp), %edx
+0x00001f39 <+259>: mov     %edx, %eax
+0x00001f3b <+261>: add     %eax, %eax
+0x00001f3d <+263>:    add    %eax, %edx
+0x00001f3f <+265>:    mov    -0x1c(%ebp), %eax
+0x00001f42 <+268>:    add    %edx, %eax
+0x00001f44 <+270>:    mov    %eax, %edx
+0x00001f46 <+272>:    mov    0x8(%ebp), %eax
+0x00001f49 <+275>:    add    %edx, %eax
+0x00001f4b <+277>:    movzbl (%eax), %eax
+0x00001f4e <+280>:    movsbl %al, %eax
+0x00001f51 <+283>:    lea    -0x30(%eax), %ecx
+0x00001f54 <+286>:    mov    $0x38e38e39, %edx
+0x00001f59 <+291>:    mov    %ecx, %eax
+0x00001f5b <+293>:    imul   %edx
+0x00001f5d <+295>:    sar    $1, %edx
+0x00001f5f <+297>:    mov    %ecx, %eax
+0x00001f61 <+299>:    sar    $0x1f, %eax
+0x00001f64 <+302>:    sub    %eax, %edx
+0x00001f66 <+304>:    mov    %edx, %eax
+0x00001f68 <+306>:    shl    $0x3, %eax
+0x00001f6b <+309>:    add    %edx, %eax
+0x00001f6d <+311>:    sub    %eax, %ecx
+0x00001f6f <+313>:    mov    %ecx, %edx
+0x00001f71 <+315>:    mov    0xcfc(%ebx, %edx, 4), %eax
+0x00001f78 <+322>:    add    %eax,-0x14(%ebp)
+0x00001f7b <+325>:    mov    0x1c(%ebp), %edx
+0x00001f7e <+328>:    mov    %edx, %eax
+0x00001f80 <+330>:    add    %eax, %eax
+0x00001f82 <+332>:    add    %eax, %edx
+0x00001f84 <+334>:    mov    -0x20(%ebp), %eax
+0x00001f87 <+337>:    add    %edx, %eax
+0x00001f89 <+339>:    mov    %eax, %edx
+0x00001f8b <+341>:    mov    0x8(%ebp), %eax
+0x00001f8e <+344>:    add    %edx, %eax
+0x00001f90 <+346>:    movzbl (%eax), %eax
+0x00001f93 <+349>:    movsbl %al, %eax
+0x00001f96 <+352>:    lea    -0x30(%eax), %ecx
+0x00001f99 <+355>:    mov    $0x38e38e39, %edx
+0x00001f9e <+360>:    mov    %ecx, %eax
+0x00001fa0 <+362>:    imul   %edx
+0x00001fa2 <+364>:    sar    $1, %edx
+0x00001fa4 <+366>:    mov    %ecx, %eax
+0x00001fa6 <+368>:    sar    $0x1f, %eax
+0x00001fa9 <+371>:    sub    %eax, %edx
+0x00001fab <+373>:    mov    %edx, %eax
+0x00001fad <+375>:    shl    $0x3, %eax
+0x00001fb0 <+378>:    add    %edx, %eax
+0x00001fb2 <+380>:    sub    %eax, %ecx
+0x00001fb4 <+382>:    mov    %ecx, %edx
+0x00001fb6 <+384>:    mov    0xcfc(%ebx, %edx, 4), %eax
+0x00001fbd <+391>:    add    %eax, -0x10(%ebp)
+0x00001fc0 <+394>:    addl   $0x1, -0x1c(%ebp)
+0x00001fc4 <+398>:    cmpl   $0x2, -0x1c(%ebp)
+0x00001fc8 <+402>:    jle    0x1f36 <Shougaizettaisouaisengen+256>
+0x00001fce <+408>:    mov    -0x18(%ebp), %eax
+0x00001fd1 <+411>:    cmp    -0x14(%ebp), %eax
+0x00001fd4 <+414>:    jne    0x1fde <Shougaizettaisouaisengen+424>
+0x00001fd6 <+416>:    mov    -0x14(%ebp), %eax
+0x00001fd9 <+419>:    cmp    -0x10(%ebp), %eax
+0x00001fdc <+422>:    je     0x1fe3 <Shougaizettaisouaisengen+429>
+0x00001fde <+424>:    call   0x2d4b <trap>
+0x00001fe3 <+429>:    addl   $0x1, -0x20(%ebp)
+0x00001fe7 <+433>:    cmpl   $0x2, -0x20(%ebp)
+0x00001feb <+437>:    jle    0x1f1c <Shougaizettaisouaisengen+230>
+0x00001ff1 <+443>:    mov    0x8(%ebp), %eax
+0x00001ff4 <+446>:    movzbl (%eax), %edx
+0x00001ff7 <+449>:    mov    0x8(%ebp), %eax
+0x00001ffa <+452>:    add    $0x1, %eax
+0x00001ffd <+455>:    movzbl (%eax), %eax
+0x00002000 <+458>:    cmp    %al, %dl
+0x00002002 <+460>:    jne    0x2092 <Shougaizettaisouaisengen+604>
+0x00002008 <+466>:    mov    0x8(%ebp), %eax
+0x0000200b <+469>:    movzbl    (%eax), %edx
+0x0000200e <+472>:    mov      $0x8(%ebp), %eax
+0x00002011 <+475>:    add         $0x2, %eax
+0x00002014 <+478>:    movzbl (%eax), %eax
+0x00002017 <+481>:    cmp %al, %dl
+0x00002019 <+483>:    jne 0x2092 <Shougaizettaisouaisengen+604>
+0x0000201b <+485>:    mov 0x8(%ebp), %eax
+0x0000201e <+488>:    movzbl (%eax), %edx
+0x00002021 <+491>:    mov 0x8(%ebp), %eax
+0x00002024 <+494>:    add $0x3, %eax
+0x00002027 <+497>:    movzbl (%eax), %eax
+0x0000202a <+500>:    cmp %al, %dl
+0x0000202c <+502>:    jne 0x2092 <Shougaizettaisouaisengen+604>
+0x0000202e <+504>:    mov 0x8(%ebp), %eax
+0x00002031 <+507>:    movzbl (%eax), %edx
+0x00002034 <+510>:    mov 0x8(%ebp), %eax
+0x00002037 <+513>:    add $0x4, %eax
+0x0000203a <+516>:    movzbl (%eax), %eax
+0x0000203d <+519>:    cmp %al, %dl
+0x0000203f <+521>:    jne 0x2092 <Shougaizettaisouaisengen+604>
+0x00002041 <+523>:    mov 0x8(%ebp), %eax
+0x00002044 <+526>:    movzbl (%eax), %edx
+0x00002047 <+529>:    mov 0x8(%ebp), %eax
+0x0000204a <+532>:    add $0x5, %eax
+0x0000204d <+535>:    movzbl (%eax), %eax
+0x00002050 <+538>:    cmp %al, %dl
+0x00002052 <+540>:    jne 0x2092 <Shougaizettaisouaisengen+604>
+0x00002054 <+542>:    mov 0x8(%ebp), %eax
+0x00002057 <+545>:    movzbl (%eax), %edx
+0x0000205a <+548>:    mov 0x8(%ebp), %eax
+0x0000205d <+551>:    add $0x6, %eax
+0x00002060 <+554>:    movzbl (%eax), %eax
+0x00002063 <+557>:    cmp %al, %dl
+0x00002065 <+559>:    jne 0x2092 <Shougaizettaisouaisengen+604>
+0x00002067 <+561>:    mov 0x8(%ebp), %eax
+0x0000206a <+564>:    movzbl (%eax), %edx
+0x0000206d <+567>:    mov 0x8(%ebp), %eax
+0x00002070 <+570>:    add $0x7, %eax
+0x00002073 <+573>:    movzbl (%eax), %eax
+0x00002076 <+576>:    cmp %al, %dl
+0x00002078 <+578>:    jne 0x2092 <Shougaizettaisouaisengen+604>
+0x0000207a <+580>:    mov 0x8(%ebp), %eax
+0x0000207d <+583>:    movzbl (%eax), %edx
+0x00002080 <+586>:    mov 0x8(%ebp), %eax
+0x00002083 <+589>:    add $0x8, %eax
+0x00002086 <+592>:    movzbl (%eax), %eax
+0x00002089 <+595>:    cmp %al, %dl
+0x0000208b <+597>:    jne 0x2092 <Shougaizettaisouaisengen+604>
+0x0000208d <+599>:    call 0x2d4b <trap>
+0x00002092 <+604>:    nop
+0x00002093 <+605>:    mov -0x4(%ebp), %ebx
+0x00002096 <+608>:    leave
+0x00002097 <+609>:    ret
+
+
+Dump of assembler code for function string_length :
+
+0x00002703 <+0>:      push %ebp
+0x00002704 <+1>:      mov %esp, %ebp
+0x00002706 <+3>:      sub $0x10, %esp
+0x00002709 <+6>:      call 0x256d <__x86.get_pc_thunk.ax>
+0x0000270e <+11>:     add $0x4386, %eax
+0x00002713 <+16>:     mov 0x8(%ebp), %eax
+0x00002716 <+19>:     mov %eax, 0x4(%ebp)
+0x00002719 <+22>:     movl $0x0, -0x8(%ebp)
+0x00002720 <+29>:     jmp 0x272a <string_length+39>
+0x00002722 <+31>:     addl $0x1, -0x4(%ebp)
+0x00002726 <+35>:     addl $0x1, -0x8(%ebp)
+0x0000272a <+39>:     mov -0x4(%ebp), %eax
+0x0000272d <+42>:     movzbl (%eax), %eax
+0x00002730 <+45>:     test %al, %al
+0x00002732 <+47>:     jne 0x2722 <string_length+31>
+0x00002734 <+49>:     mov -0x8(%ebp), %eax
+0x00002737 <+52>:     leave
+0x00002738 <+53>:     ret
