@@ -15,7 +15,7 @@
 
 ### Praktikum 01-Bitwise
 - Soal-soalnya mirip competitive programming
-- bitwise
+- Bitwise
 - Ada constraints untuk jumlah operationnya
 
 ### Praktikum 02-Reverse Engineering
