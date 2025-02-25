@@ -1,0 +1,169 @@
+Dump of assembler code for function Senbonzakura:
+
+0x000018f3 <+0>:         push    %ebp
+0x000018f4<+1>:          mov     %esp, %ebp
+0x000018f6<+3>:          push    %ebx
+0x000018f7<+4>:          sub     $0x244, %esp
+0x000018fd<+10>:        call    0x12b0 <__x86.get_pc_thunk.bx>
+0x00001902<+15>:       add     $0x5642, %ebx
+0x00001908<+21>:       mov     0x8(%ebp), %eax
+0x0000190b<+24>:       mov     %eax,-0x23c(%ebp)
+0x00001911<+30>:       mov     %gs:0x14, %eax
+0x00001917<+36>:       mov     %eax, -0xc(%ebp)
+0x0000191a<+39>:       xor     %eax, %eax
+0x0000191c<+41>:       sub     $0x8, %esp
+0x0000191f<+44>:        lea     -0x2b07(%ebx), %eax
+0x00001925<+50>:       push    %eax
+0x00001926<+51>:       push -0x23c(%ebp)
+0x0000192c<+57>:       call    0x1080 <strcspn@plt>
+0x00001931<+62>:       add     $0x10, %esp
+0x00001934<+65>:       mov     -0x23c(%ebp), %edx
+0x0000193a<+71>:       add      %edx,%eax
+0x0000193c<+73>:       movb    $0x0, (%eax)
+0x0000193f<+76>:        movl    $0x17780b15, -0x225(%ebp)
+0x00001949<+86>:       movl    $0xa420132, -0x221(%ebp)
+0x00001953<+96>:       movl    $0x67a0d3d, -0x21d(%ebp)
+0x0000195d<+106>:     movl    $0xa780d07, -0x219(%ebp)
+0x00001967<+116>:     movl    $0x342013f, -0x215(%ebp)
+0x00001971 <+126>:    movl   $0xd34443d, -0x211(%ebp)
+0x0000197b <+136>:    movl   $0x13f440b, -0x20d(%ebp)
+0x00001985 <+146>:    movl   $0xd07067a, -0x209(%ebp)
+0x0000198f <+156>:    movl   $0x13f0a78, -0x205(%ebp)
+0x00001999 <+166>:    movb   $0x0, -0x201(%ebp)
+0x000019a0 <+173>:    movl   $0x46434758, -0x22c(%ebp)
+0x000019aa <+183>:    movl   $0x524146, -0x229(%ebp)
+0x000019b4 <+193>:    sub     $0xc, %esp
+0x000019b7 <+196>:    lea    -0x22c(%ebp), %eaxx
+0x000019bd <+202>:    push   %eax
+0x000019be <+203>:    call   0x289c <java_adalah_key>
+0x000019c3 <+208>:    add    $0x10, %esp
+0x000019c6 <+211>:    sub    $0x8, %esp
+0x000019c9 <+214>:    push    -0x23c(%ebp)
+0x000019cf <+220>:    lea    -0x200(%ebp), %eax
+0x000019d5 <+226>:    push   %eax
+0x000019d6 <+227>:    call   0x1130 <strcpy@plt>
+0x000019db <+232>:    add    $0x10, %esp
+0x000019de <+235>:    sub    $0x4, %esp
+0x000019e1 <+238>:    push   $0x6
+0x000019e3 <+240>:    lea    -0x22c(%ebp), %eax
+0x000019e9 <+246>:    push   %eax
+0x000019ea <+247>:    lea    -0x200(%ebp), %eax
+0x000019f0 <+253>:    push   %eax
+0x000019f1 <+254>:    call   0x27ae <what_is_this>
+0x000019f6 <+259>:    add    $0x10, %esp
+0x000019f9 <+262>:    movl   $0x0, -0x230(%ebp)
+0x00001a03 <+272>:   jmp     0x1a37 <Senbonzakura+324>
+0x00001a05 <+274>:   lea    -0x200(%ebp), %edx
+0x00001a0b <+280>:   mov  -0x230(%ebp), %eax
+0x00001a11 <+286>:   add    %edx, %eax
+0x00001a13 <+288>:   movzbl (%eax), %edx
+0x00001a16 <+291>:   lea     -0x225(%ebp), %ecx
+0x00001a1c <+297>:   mov   -0x230(%ebp),%eax
+0x00001a22 <+303>:   add     %ecx, %eax
+0x00001a24 <+305>:   movzbl (%eax), %eax
+0x00001a27 <+308>:   cmp %al, %dl
+0x00001a29 <+310>:   je 0x1a30 <Senbonzakura+317>
+0x00001a2b <+312>:   call 0x2d4b <trap>
+0x00001a30 <+317>:   addl $0x1, -0x230(%ebp)
+0x00001a37 <+324>:   lea -0x225(%ebp), %edx
+0x00001a3d <+330>:   mov -0x230(%ebp), %eax
+0x00001a43 <+336>: add %edx, %eax
+0x00001a45 <+338>: movzbl (%eax), %eax
+0x00001a48 <+341>: test %al, %al
+0x00001a4a <+343>: jne 0x1a05 <Senbonzakura+274>
+0x00001a4c <+345>: nop
+0x00001a4d <+346>: mov -0xc(%ebp), %eax
+0x00001a50 <+349>: sub %gs:0x14, %eax
+0x00001a57 <+356>: je 0x1a5e <Senbonzakura+363>
+0x00001a59 <+358>: call 0x3dd0 <__stack_chk_fail_local>
+0x00001a5e <+363>: mov -0x4(%ebp),%ebx
+0x00001a61 <+366>: leave
+0x00001a62 <+367>: ret
+
+
+Dump of assembler code for function java_adalah_key:
+
+0x0000289c <+0>:   push   %ebp
+0x0000289d <+1>:   mov    %esp, %ebp
+0x0000289f <+3>:   push   %ebx
+0x000028a0 <+4>:   sub    $0x14, %esp
+0x000028a3 <+7>:   call   0x256d <__x86.get_pc_thunk.ax>
+0x000028a8 <+12>:  add    $0x469c, %eax
+0x000028ad <+17>:  sub    $0xc, %esp
+0x000028b0 <+20>:  push   0x8(%ebp)
+0x000028b3 <+23>:  mov    %eax, %ebx
+0x000028b5 <+25>:  call   0x1190 <strlen@plt>
+0x000028ba <+30>:  add    $0x10, %esp
+0x000028bd <+33>:  mov    %eax, -0xc(%ebp)
+0x000028c0 <+36>:  movl   $0x0, -0x10(%ebp)
+0x000028c7 <+43>:  jmp    0x28f3 <java_adalah_key+87>
+0x000028c9 <+45>:  mov    -0x10(%ebp), %edx
+0x000028cc <+48>:  mov    0x8(%ebp), %eax
+0x000028cf <+51>:  add    %edx, %eax
+0x000028d1 <+53>:  movzbl (%eax), %eax
+0x000028d4 <+56>:  xor    $0x2a, %eax
+0x000028d7 <+59>:  add    $0x4, %eax
+0x000028da <+62>:  or       $0x1, %eax
+0x000028dd <+65>:  xor    $0x25, %eax
+0x000028e0 <+68>:  lea    0x10(%eax), %ecx
+0x000028e3 <+71>:  mov    -0x10(%ebp), %edx
+0x000028e6 <+74>:  mov    0x8(%ebp), %eax
+0x000028e9 <+77>:  add    %edx, %eax
+0x000028eb <+79>:  mov    %ecx, %edx
+0x000028ed <+81>:  mov    %dl, (%eax)
+0x000028ef <+83>:   addl    $0x1, 0x10(%ebp)
+0x000028f3 <+87>:   mov    -0x10(%ebp), %eax
+0x000028f6 <+90>:   cmp    -0xc(%ebp), %eax
+0x000028f9 <+93>:   jl          0x28c9 <java_adalah_key+45>
+0x000028fb <+95>:   nop
+0x000028fc <+96>:   nop
+0x000028fd <+97>:   mov    -0x4(%ebp), %ebx
+0x00002900 <+100>:   leave
+0x00002901 <+101>:   ret
+
+
+Dump of assembler code for function what_is_this:
+
+0x000027ae <+0>:    push   %ebp
+0x000027af <+1>:    mov    %esp, %ebp
+0x000027b1 <+3>:    push   %ebx
+0x000027b2 <+4>:    sub    $0x14, %esp
+0x000027b5 <+7>:    call   0x12b0 <__x86.get_pc_thunk.bx>
+0x000027ba <+12>:   add    $0x478a, %ebx
+0x000027c0 <+18>:   movl   $0x0, -0x10(%ebp)
+0x000027c7 <+25>:   movl   $0x0, -0xc(%ebp)
+0x000027ce <+32>:   jmp    0x280c <what_is_this+94>
+0x000027d0 <+34>:   mov    -0xc(%ebp), %edx
+0x000027d3 <+37>:   mov    0x8(%ebp), %eax
+0x000027d6 <+40>:   add    %edx, %eax
+0x000027d8 <+42>:   movzbl (%eax), %eax
+0x000027db <+45>:   mov    %al, -0x11(%ebp)
+0x000027de <+48>:   mov    -0x10(%ebp), %eax
+0x000027e1 <+51>:   lea       0x1(%eax), %edx
+0x000027e4 <+54>:   mov     %edx, -0x10(%ebp)
+0x000027e7 <+57>:   cltd
+0x000027e8 <+58>:   idivl     0x10(%ebp)
+0x000027eb <+61>:   mov    %edx, %eax
+0x000027ed <+63>:   mov    %eax, %edx
+0x000027ef <+65>:   mov    0xc(%ebp), %eax
+0x000027f2 <+68>:   add     %edx, %eax
+0x000027f4 <+70>:   movzbl (%eax), %eax
+0x000027f7 <+73>:   xor    %al, -0x11(%ebp)
+0x000027fa <+76>:   mov    -0xc(%ebp), %edx
+0x000027fd <+79>:   mov    0x8(%ebp), %eax
+0x00002800 <+82>:   add    %eax, %edx
+0x00002802 <+84>:   movzbl -0x11(%ebp), %eax
+0x00002806 <+88>:   mov    %al, (%edx)
+0x00002808 <+90>:   addl   $0x1, -0xc(%ebp)
+0x0000280c <+94>:   sub    $0xc, %esp
+0x0000280f <+97>:   push   0x8(%ebp)
+0x00002812 <+100>:  call   0x1190 <strlen@plt>
+0x00002817 <+105>:  add    $0x10, %esp
+0x0000281a <+108>:  mov    -0xc(%ebp), %edx
+0x0000281d <+111>:  cmp    %eax, %edx
+0x0000281f <+113>:  jb     0x27d0 <what_is_this+34>
+0x00002821 <+115>:  nop
+0x00002822 <+116>:  nop
+0x00002823 <+117>:  mov    -0x4(%ebp), %ebx
+0x00002826 <+120>:  leave
+0x00002827 <+121>:  ret
