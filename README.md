@@ -35,24 +35,10 @@ This page is intentionally left blank
 
 ## ✨ Advice
 
-### Command Line Interface (CLI)
-![cligif](https://raw.githubusercontent.com/Nayekah/Tucil1_13523090/main/tucil1/etc/cli.gif)
-
-<br/>
-<br/>
-<br/>
-<br/>
-
-### Graphic User Interface (GUI)
-
-#### Manual Input
-![gmanual](https://raw.githubusercontent.com/Nayekah/Tucil1_13523090/main/tucil1/etc/guimanual.gif)
-
-<br/>
-<br/>
-
-#### File Input
-![gload](https://raw.githubusercontent.com/Nayekah/Tucil1_13523090/main/tucil1/etc/guiload.gif)
+### Praktikum 01
+- Learn how integers and floats work
+- Learn C Language
+- Try competitive programming problems
 
 ---
 
