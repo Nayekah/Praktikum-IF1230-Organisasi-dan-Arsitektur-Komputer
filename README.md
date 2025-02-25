@@ -11,7 +11,7 @@
 
 ---
 
-## 📦 What to do?
+## 📦 What's Inside?
 
 ### Praktikum 01-Bitwise
 - Soal-soalnya mirip competitive programming
@@ -24,6 +24,7 @@
 
 ### Praktikum 03-Binary Exploitation (PWN)
 - Exploit binary
+- Secara mayoritas problemnya Return-Oriented Programming (ROP)
 
 ---
 
