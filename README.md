@@ -45,6 +45,16 @@ This page is intentionally left blank
 - Learn how to use conventional debugger (ex. gdb, peda, pwntools, gef, etc)
 - Learn how the program works with its instruction and procedure (ex. mov, jmp, lea, etc.)
 - Learn how datas are stored in stack
+
+### Praktikum 03
+- Learn how datas are stored in stack
+- Learn the stack behavior
+- Learn how to utilize buffer overflow
+- Learn Return Oriented Programming (ROP)
+- Learn how to utilize data fuzzing (ex. string vulnerability, etc)
+- Learn how to take over the system using shellcode
+- Learn return to what? (ex. ret2win, ret2libc, ret2csu, etc)
+  
 ---
 
 ## 📃 Miscellaneous
