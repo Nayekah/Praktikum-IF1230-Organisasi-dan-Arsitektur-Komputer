@@ -1,0 +1,118 @@
+Dump of assembler code for function Bakenohana:
+
+0x00001861 <+0>:   push    %ebp
+0x00001862 <+1>:   mov     %esp, %ebp
+0x00001864 <+3>:   sub     $0x8, %esp
+0x00001867 <+6>:   call    0x256d <__x86.get_pc_thunk.ax>
+0x0000186c <+11>:  add     $0x56d8, %eax
+0x00001871 <+16>:  mov     0x8(%ebp), %eax
+0x00001874 <+19>:  movzbl  (%eax), %eax
+0x00001877 <+22>:  movsbl  %al, %eax
+0x0000187a <+25>:  sub     $0x8, %esp
+0x0000187d <+28>:  push    $0x69
+0x0000187f <+30>:  push    %eax
+0x00001880 <+31>:  call    0x17b4 <check>
+0x00001885 <+36>:  add     $0x10, %esp
+0x00001888 <+39>:  mov     0x8(%ebp), %eax
+0x0000188b <+42>:  add     $0x1, %eax
+0x0000188e <+45>:  movzbl  (%eax), %eax
+0x00001891 <+48>:  movsbl  %al, %eax
+0x00001894 <+51>:  sub     $0x8, %esp
+0x00001897 <+54>:  push    $0x66
+0x00001899 <+56>:  push    %eax
+0x0000189a <+57>:  call    0x17b4 <check>
+0x0000189f <+62>:  add     $0x10, %esp
+0x000018a2 <+65>:  mov     0x8(%ebp), %eax
+0x000018a5 <+68>:  add     $0x2, %eax
+0x000018a8 <+71>:  movzbl  (%eax), %eax
+0x000018ab <+74>:  movsbl  %al, %eax
+0x000018ae <+77>:  sub     $0x8, %esp
+0x000018b1 <+80>:  push    $0x73
+0x000018b3 <+82>:  push    %eax
+0x000018b4 <+83>:  call    0x17b4 <check>
+0x000018b9 <+88>:  add     $0x10, %esp
+0x000018bc <+91>:  mov     0x8(%ebp), %eax
+0x000018bf <+94>:  add     $0x3, %eax
+0x000018c2 <+97>:  movzbl  (%eax), %eax
+0x000018c5 <+100>:  movsbl  %al, %eax
+0x000018c8 <+103>:  sub     $0x8, %esp
+0x000018cb <+106>:  push    $0x74
+0x000018cd <+108>:  push    %eax
+0x000018ce <+109>:  call    0x17b4 <check>
+0x000018d3 <+114>:  add     $0x10, %esp
+0x000018d6 <+117>:  mov     0x8(%ebp), %eax
+0x000018d9 <+120>:  add     $0x4, %eax
+0x000018dc <+123>:  movzbl  (%eax), %eax
+0x000018df <+126>:  movsbl  %al, %eax
+0x000018e2 <+129>:  sub     $0x8, %esp
+0x000018e5 <+132>:  push    $0x69
+0x000018e7 <+134>:  push    %eax
+0x000018e8 <+135>:  call    0x17b4 <check>
+0x000018ed <+140>:  add     $0x10, %esp
+0x000018f0 <+143>:  nop
+0x000018f1 <+144>:  leave
+0x000018f2 <+145>:  ret
+
+Dump of assembler code for function check:
+
+0x000017b4 <+0>:    push    %ebp
+0x000017b5 <+1>:    mov     %esp, %ebp
+0x000017b7 <+3>:    push    %ebx
+0x000017b8 <+4>:    sub     $0x24, %esp
+0x000017bb <+7>:    call    0x12b0 <__x86.get_pc_thunk.bx>
+0x000017c0 <+12>:   add     $0x5784, %ebx
+0x000017c6 <+18>:   mov     0x8(%ebp), %edx
+0x000017c9 <+21>:   mov     0xc(%ebp), %eax
+0x000017cc <+24>:   mov    %dl, -0x1c(%ebp)
+0x000017cf <+27>:   mov    %al, -0x20(%ebp)
+0x000017d2 <+30>:   movl    $0x0, -0xc(%ebp)
+0x000017d9 <+37>:   jmp     0x184e <check+154>
+0x000017db <+39>:   movsbl  -0x1c(%ebp), %ecx
+0x000017df <+43>:   mov     -0xc(%ebp), %edx
+0x000017e2 <+46>:   mov     %edx, %eax
+0x000017e4 <+48>:   add     %eax, %eax
+0x000017e6 <+50>:   add     %edx, %eax
+0x000017e8 <+52>:   add     %eax, %ecx
+0x000017ea <+54>:   mov     $0x4ec4ec4f, %edx
+0x000017ef <+59>:   mov     %ecx, %eax
+0x000017f1 <+61>:   imul    %edx
+0x000017f3 <+63>:   mov     %edx, %eax
+0x000017f5 <+65>:   sar     $0x3, %eax
+0x000017f8 <+68>:   mov     %ecx, %edx
+0x000017fa <+70>:   sar     $0x1f, %edx
+0x000017fd <+73>:   sub     %edx, %eax
+0x000017ff <+75>:   imul    $0x1a, %eax, %edx
+0x00001802 <+78>:   mov     %ecx, %eax
+0x00001804 <+80>:   sub     %edx, %eax
+0x00001806 <+82>:   add     $0x611, %eax
+0x00001809 <+85>:   mov    %al, -0x1c(%ebp)
+0x0000180c <+88>:   cmpb    $0x7a, -0x1c(%ebp)
+0x00001810 <+92>:   jle     0x1841 <check+141>
+0x00001812 <+94>:   movzbl  -0x1c(%ebp), %edx
+0x00001816 <+98>:   mov    $0x4f, %ecx
+0x0000181b <+103>:  mov    %ecx, %eax
+0x0000181d <+105>:  imul   %dl
+0x0000181f <+107>:  shr    $0x8, %ax
+0x00001823 <+111>:  sar    $0x3,%al
+0x00001826 <+114>:  mov    %edx, %ecx
+0x00001828 <+116>:  sar    $0x7, %cl
+0x0000182b <+119>:  sub    %ecx, %eax
+0x0000182d <+121>:  mov    $0x1a, %ecx
+0x00001832 <+126>:  imul   %ecx, %eax
+0x00001835 <+129>:  mov    %eax, %ecx
+0x00001837 <+131>:  mov    %edx, %eax
+0x00001839 <+133>:  sub    %ecx, %eax
+0x0000183b <+135>:  add    $0x61, %eax
+0x0000183e <+138>:  mov    %al, -0x1c(%ebp)
+0x00001841 <+141>:  movzbl -0x1c(%ebp), %eax
+0x00001845 <+145>:  cmp    -0x20(%ebp), %al
+0x00001848 <+148>:  je     0x185b <check+167>
+0x0000184a <+150>:  addl   $0x1, -0xc(%ebp)
+0x0000184e <+154>:  cmpl   $0x5, -0xc(%ebp)
+0x00001852 <+158>:  jle    0x17db <check+39>
+0x00001854 <+160>:  call   0x2d4b <trap>
+0x00001859 <+165>:  jmp    0x185c <check+168>
+0x0000185b <+167>:  nop
+0x0000185c <+168>:  mov    -0x4(%ebp), %ebx
+0x0000185f <+171>:  leave
+0x00001860 <+172>:  ret
