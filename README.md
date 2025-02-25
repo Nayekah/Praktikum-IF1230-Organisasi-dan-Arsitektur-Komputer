@@ -48,23 +48,9 @@ This page is intentionally left blank
 ---
 
 ## 📃 Miscellaneous
-| No | Points | Yes | No |
-| --- | --- | --- | --- |
-| 1 | The program compiles successfully without errors | ✔️ | |
-| 2 | Program successfully executed | ✔️ | |
-| 3 | The solution provided by the program is correct and complies with the rules of the game | ✔️ | |
-| 4 | The program can read the input .txt file and save the solution in the .txt file | ✔️ | |
-| 5 | The program has a Graphical User Interface (GUI) | ✔️ | |
-| 6 | The program can save the solution as an image file | ✔️ | |
-| 7 | The program can solve the case of custom configuration | | ✔️ |
-| 8 | The program can solve the case of Pyramid configuration (3D) | | ✔️ |
-| 9 | Program created by myself | ✔️ | |
 
-<br/>
-<br/>
-<br/>
-<br/>
-
-<div align="center">
-Nayaka Ghana Subrata • © 2025 • 13523090
-</div>
+| Praktikum    | Topic                                         | Score  |
+|--------------|-----------------------------------------------|--------|
+| 1            | Bitwise                                       | 100/100|
+| 2            | Reverse-Engineering                           | 100/100|
+| 3            | Binary Exploitation                           | 100/100|
