@@ -1,0 +1,290 @@
+Dump of assembler code for function Kyukurarin:
+
+0x00001c2a <+0>:    push   %ebp
+0x00001c2b <+1>:    mov    %esp, %ebp
+0x00001c2d <+3>:    push   %edi
+0x00001c2e <+4>:    push   %esi
+0x00001c2f <+5>:    push   %ebx
+0x00001c30 <+6>:    sub    $0x41c, %esp
+0x00001c36 <+12>:   call   0x12b0 <__x86.get_pc_thunk.bx>
+0x00001c3b <+17>:   add    $0x5309, %ebx
+0x00001c41 <+23>:   mov    0x8(%ebp), %eax
+0x00001c44 <+26>:   mov    %eax, -0x41c(%ebp)
+0x00001c4a <+32>:   mov    %gs:0x14, %eax
+0x00001c50 <+38>:   mov    %eax, -0x1c(%ebp)
+0x00001c53 <+41>:   xor    %eax, %eax
+0x00001c55 <+43>:   sub    $0x4, %esp
+0x00001c58 <+46>:   lea    -0x2b05(%ebx), %eax
+0x00001c5e <+52>:   push   %eax
+0x00001c5f <+53>:   push   $0x64
+0x00001c61 <+55>:   push   -0x41c(%ebp)
+0x00001c67 <+61>:   call   0x1060 <fmemopen@plt>
+0x00001c6c <+66>:   add    $0x10, %esp
+0x00001c6f <+69>:   mov    %eax, -0x410(%ebp)
+0x00001c75 <+75>:   sub    $0x4, %esp
+0x00001c78 <+78>:   lea    -0x414(%ebp), %eax
+0x00001c7e <+84>:   push   %eax
+0x00001c7f <+85>:   lea    -0x2b03(%ebx), %eax
+0x00001c85 <+91>:   push   %eax
+0x00001c86 <+92>:   push   -0x410(%ebp)
+0x00001c8c <+98>:  call   0x1090 <__isoc99_fscanf@plt>
+0x00001c91 <+103>:  add    $0x10, %esp
+0x00001c94 <+106>:  mov    -0x414(%ebp), %eax
+0x00001c9a <+112>:  xor    $0xc, %eax
+0x00001c9d <+115>:  mov    %eax, -0x40c(%ebp)
+0x00001ca3 <+121>:   mov   -0x414(%ebp),%eax
+0x00001ca9 <+127>:   imul   $0x45,%eax,%ecx
+0x00001cac <+130>:  mov   $0x6bca1af3,%edx
+0x00001cb1 <+135>:  mov    %ecx,%eax
+0x00001cb3 <+137>:  imul    %edx
+0x00001cb5 <+139>:  mov    %edx, %eax
+0x00001cb7 <+141>:  sar    $0x3,%eax
+0x00001cba <+144>:  mov   %ecx,%edx
+0x00001cbc <+146>:  sar    $0x1f,%edx
+0x00001cbf <+149>:  sub    %edx,%eax
+0x00001cc1 <+151>:  mov    %eax, -0x408(%ebp)
+0x00001cc7 <+157>:  mov    -0x408(%ebp),%edx
+0x00001ccd <+163>:  mov    %edx, %eax
+0x00001ccf <+165>:  shl    $0x3,%eax
+0x00001cd2 <+168>:   add    %edx, %eax
+0x00001cd4 <+170>:   add    %eax, %eax
+0x00001cd6 <+172>:   add    %edx, %eax
+0x00001cd8 <+174>:   sub    %eax, %ecx
+0x00001cda <+176>:   mov    %ecx, %edx
+0x00001cdc <+178>:   mov    %edx, -0x408(%ebp)
+0x00001ce2 <+184>:   mov    0x193dc(%ebx), %eax
+0x00001ce8 <+190>:   mov    %eax,-0x420(%ebp)
+0x00001cee <+196>:   lea    -0x404(%ebp), %esi
+0x00001cf4 <+202>:   mov    %esi, -0x424(%ebp)
+0x00001cfa <+208>:   sub    $0x4, %esp
+0x00001cfd <+211>:   mov    -0x408(%ebp), %edx
+0x00001d03 <+217>:   lea    0xd3c(%ebx), %eax
+0x00001d09 <+223>:   imul   $0x1f4, %edx, %edx
+0x00001d0f <+229>:   add    %edx, %eax
+0x00001d11 <+231>:   sub    $0x1f4, %esp
+0x00001d17 <+237>:   mov    %esp, %edx
+0x00001d19 <+239>:   mov    %eax, %esi
+0x00001d1b <+241>:   mov    $0x7d, %eax
+0x00001d20 <+246>:   mov    %edx, %edi
+0x00001d22 <+248>:   mov    %eax, %ecx
+0x00001d24 <+250>:   rep movsl %ds:(%esi),%es:(%edi)
+0x00001d26 <+252>:   mov    -0x40c(%ebp), %edx
+0x00001d2c <+258>:   lea    0xd3c(%ebx), %eax
+0x00001d32 <+264>:   imul   $0x1f4, %edx, %edx
+0x00001d38 <+270>:   add    %edx, %eax
+0x00001d3a <+272>:   sub    $0x1f4, %esp
+0x00001d40 <+278>:   mov    %esp, %edx
+0x00001d42 <+280>:   mov    %eax, %esi
+0x00001d44 <+282>:   mov    $0x7d, %eax
+0x00001d49 <+287>:   mov    %edx, %edi
+0x00001d4b <+289>:   mov    %eax, %ecx
+0x00001d4d <+291>:   rep movsl %ds:(%esi),%es:(%edi)
+0x00001d4f <+293>: push   -0x424(%ebp)
+0x00001d55 <+299>: mov    -0x420(%ebp), %eax
+0x00001d5b <+305>: call   *%eax
+0x00001d5d <+307>: add    $0x3ec, %esp
+0x00001d63 <+313>: sub    $0xc, %esp
+0x00001d66 <+316>: push   -0x410(%ebp)
+0x00001d6c <+322>: call   0x1200 <fgetc@plt>
+0x00001d71 <+327>: add    $0x10, %esp
+0x00001d74 <+330>: sub    $0x4, %esp
+0x00001d77 <+333>: push   -0x410(%ebp)
+0x00001d7d <+339>: push    $0x1388, %eax
+0x00001d82 <+344>: lea    -0x210(%ebp), %eax
+0x00001d88 <+350>: push   %eax
+0x00001d89 <+351>: call   0x10d0 <fgets@plt>
+0x00001d8e <+356>: add    $0x10, %esp
+0x00001d91 <+359>: sub    $0x8,%esp
+0x00001d94 <+362>: lea    -0x2b07(%ebx),%eax
+0x00001d9a <+368>: push   %eax
+0x00001d9b <+369>: lea    -0x210(%ebp), %eax
+0x00001da1 <+375>: push   %eax
+0x00001da2 <+376>: call   0x1080 <strcspn@plt>
+0x00001da7 <+381>: add    $0x10, %esp
+0x00001daa <+384>: movb   $0x0, -0x210(%ebp, %eax, 1)
+0x00001db2 <+392>: sub    $0x8, %esp
+0x00001db5 <+395>: sub    $0x1f4, %esp
+0x00001dbb <+401>: mov    %esp, %eax
+0x00001dbd <+403>: mov    %eax, %edi
+0x00001dbf <+405>: lea    -0x210(%ebp), %eax
+0x00001dc5 <+411>: mov    $0x7d, %edx
+0x00001dca <+416>: mov    %eax, %esi
+0x00001dcc <+418>: mov    %edx, %ecx
+0x00001dce <+420>: rep movsl %ds:(%esi), %es:(%edi)
+0x00001dd0 <+422>: sub    $0x1f4, %esp
+0x00001dd6 <+428>: mov    %esp, %eax
+0x00001dd8 <+430>: mov    %eax, %edi
+0x00001dda <+432>: lea    -0x404(%ebp), %eax
+0x00001de0 <+438>: mov    $0x7d, %edx
+0x00001de5 <+443>: mov    %eax, %esi
+0x00001de7 <+445>: mov    %edx, %ecx
+0x00001de9 <+447>: rep movsl %ds:(%esi), %es:(%edi)
+0x00001deb <+449>: call   0x1bce <c>
+0x00001df0 <+454>: add    $0x3f0, %esp
+0x00001df6 <+460>: test   %al, %al
+0x00001df8 <+462>: sete   %al
+0x00001dfb <+465>: mov    %al, -0x415(%ebp)
+0x00001e01 <+471>: mov    0x193e0(%ebx), %edx
+0x00001e07 <+477>: mov    -0x414(%ebp), %ecx
+0x00001e0d <+483>: movzbl -0x415(%ebp), %eax
+0x00001e14 <+490>: test   %al, %al
+0x00001e16 <+492>: je     0x1e1c <Kyukurarin+498>
+0x00001e18 <+494>: mov    %ecx, %edi
+0x00001e1a <+496>: call   *%edx
+0x00001e1c <+498>: nop
+0x00001e1d <+499>: mov    -0x1c(%ebp), %eax
+0x00001e20 <+502>: sub    %gs:0x14, %eax
+0x00001e27 <+509>: je     0x1e2e <Kyukurarin+516>
+0x00001e29 <+511>: call   0x3dd0 <__stack_chk_fail_local>
+0x00001e2e <+516>: lea    -0xc(%ebp), %esp
+0x00001e31 <+519>: pop    %ebx
+0x00001e32 <+520>: pop    %esi
+0x00001e33 <+521>: pop    %edi
+0x00001e34 <+522>: pop    %ebp
+0x00001e35 <+523>: ret
+
+Dump of assembler code for function b:
+
+0x00001a63: <+0> push   %ebp
+0x00001a64: <+1> mov    %esp, %ebp
+0x00001a66: <+3> push   %ebx
+0x00001a67: <+4> sub    $0x4, %esp
+0x00001a6a: <+7> call   0x256d <__x86.get_pc_thunk.ax>
+0x00001a6f: <+12> add    $0x54d5, %eax
+0x00001a74: <+17> movl   $0x7fffffff, 0x8(%ebp)
+0x00001a7b: <+24> mov    %eax, %ebx
+0x00001a7d: <+26> call   0x2d4b <trap>
+0x00001a82: <+31> nop
+0x00001a83: <+32> mov    -0x4(%ebp), %ebx
+0x00001a86: <+35> leave
+0x00001a87: <+36> ret
+
+
+Dump of assembler code for function f:
+
+0x00001a88: <+0> push   %ebp
+0x00001a89: <+1> mov    %esp, %ebp
+0x00001a8b: <+3> push   %edi
+0x00001a8c: <+4> push   %esi
+0x00001a8d: <+5> push   %ebx
+0x00001a8e: <+6> sub    $0x21c, %esp
+0x00001a94: <+12> call   0x256d <__x86.get_pc_thunk.ax>
+0x00001a99: <+17> add    $0x54ab, %eax
+0x00001a9e: <+22> mov    0x8(%ebp), %eax
+0x00001aa1: <+25> mov    %eax, -0x21c(%ebp)
+0x00001aa7: <+31> mov    %gs:0x14, %eax
+0x00001aad: <+37> mov    %eax, -0x1c(%ebp)
+0x00001ab0: <+40> xor    %eax, %eax
+0x00001ab2: <+42> movl   $0x0, -0x218(%ebp)
+0x00001abc: <+52> movl   $0x0, -0x214(%ebp)
+0x00001ac6: <+62> jmp    0x1aed <f+101>
+0x00001ac8: <+64> lea    0xc(%ebp), %edx
+0x00001acb: <+67> mov    -0x218(%ebp), %eax
+0x00001ad1: <+73> add    %edx, %eax
+0x00001ad3: <+75> movzbl (%eax), %eax
+0x00001ad6: <+78> lea    -0x210(%ebp), %ecx
+0x00001adc: <+84> mov    -0x218(%ebp), %edx
+0x00001ae2: <+90> add    %ecx, %edx
+0x00001ae4: <+92> mov %al,(%edx)
+0x00001ae6: <+94> addl    $0x1, -0x218(%ebp)
+0x00001aed: <+101> lea    0xc(%ebp), %edx
+0x00001af0: <+104> mov    -0x218(%ebp), %eax
+0x00001af6: <+110> add    %edx, %eax
+0x00001af8: <+112> movzbl (%eax), %eax
+0x00001afb: <+115> test   %al, %al
+0x00001afd: <+117> jne    0x1ac8 <f+64>
+0x00001aff: <+119> mov    -0x218(%ebp), %eax
+0x00001b05: <+125> lea    0x1(%eax), %edx
+0x00001b08: <+128> mov    %edx, -0x218(%ebp)
+0x00001b0e: <+134> movb   $0x20, -0x210(%ebp,%eax,1)
+0x00001b16: <+142> nop
+0x00001b17: <+143> nop
+0x00001b18: <+144> jmp    0x1b47 <f+191>
+0x00001b1a: <+146> mov    -0x214(%ebp), %edx
+0x00001b20: <+152> lea    0x1(%edx), %eax
+0x00001b23: <+155> mov    %eax, -0x214(%ebp)
+0x00001b29: <+161> mov    -0x218(%ebp), %eax
+0x00001b2f: <+167> lea    0x1(%eax), %ecx
+0x00001b32: <+170> mov    %ecx, -0x218(%ebp)
+0x00001b38: <+176> movzbl 0x200(%ebp,%edx,1), %edx
+0x00001b40: <+184> mov    %dl, -0x210(%ebp,%eax,1)
+0x00001b47 <+191>: lea   0x200(%ebp),%edx
+0x00001b4d <+197>: mov   -0x214(%ebp),%eax
+0x00001b53 <+203>: add   %edx,%eax
+0x00001b55 <+205>: movzbl (%eax),%eax
+0x00001b58 <+208>: test  %al,%al
+0x00001b5a <+210>: jne   0x1b1a <f+146>
+0x00001b5c <+212>: nop
+0x00001b5d <+213>: nop
+0x00001b5e <+214>: lea   -0x210(%ebp),%edx
+0x00001b64 <+220>: mov   -0x218(%ebp),%eax
+0x00001b6a <+226>: add   %edx,%eax
+0x00001b6c <+228>: movb  $0x0,(%eax)
+0x00001b6f <+231>: mov   -0x21c(%ebp),%eax
+0x00001b75 <+237>: mov   %eax,%edx
+0x00001b77 <+239>: lea   -0x210(%ebp),%eax
+0x00001b7d <+245>: mov   $0x1f4,%ecx
+0x00001b82 <+250>: mov   (%eax),%ebx
+0x00001b84 <+252>: mov   %ebx,(%edx)
+0x00001b86 <+254>: mov   -0x4(%eax,%ecx,1),%ebx
+0x00001b8a <+258>: mov   %ebx,-0x4(%edx,%ecx,1)
+0x00001b8e <+262>: lea   0x4(%edx),%ebx
+0x00001b91 <+265>: and   $0xfffffffc,%ebx
+0x00001b94 <+268>: sub   %ebx,%edx
+0x00001b96 <+270>: sub   %edx,%eax
+0x00001b98 <+272>: add   %edx,%ecx
+0x00001b9a <+274>: and   $0xfffffffc,%ecx
+0x00001b9d <+277>: shr   $0x2,%ecx
+0x00001ba0 <+280>: mov   %ecx,%edx
+0x00001ba2 <+282>: mov   %ebx,%edi
+0x00001ba4 <+284>: mov   %eax,%esi
+0x00001ba6 <+286>: mov   %edx,%ecx
+0x00001ba8 <+288>: rep movsl %ds:(%esi),%es:(%edi)
+0x00001baa <+290>: mov   -0x1c(%ebp),%eax
+0x00001bad <+293>: sub   %gs:0x14,%eax
+0x00001bb4 <+300>: je    0x1bbb <f+307>
+0x00001bb6 <+302>: call    0x3dd0 <__stack_chk_fail_local>
+0x00001bbb <+307>: mov    -0x21c(%ebp),%eax
+0x00001bc1 <+313>: add    $0x21c,%esp
+0x00001bc7 <+319>: pop    %ebx
+0x00001bc8 <+320>: pop    %esi
+0x00001bc9 <+321>: pop    %edi
+0x00001bca <+322>: pop    %ebp
+0x00001bcb <+323>: ret    $0x4
+
+
+Dump of assembler code for function c:
+
+0x00001bce <+0>:    push   %ebp
+0x00001bcf <+1>:    mov    %esp, %ebp
+0x00001bd1 <+3>:    push   %edi
+0x00001bd2 <+4>:    push   %esi
+0x00001bd3 <+5>:    sub    $0x10, %esp
+0x00001bd6 <+8>:    call   0x256d <__x86.get_pc_thunk.ax>
+0x00001bdb <+13>:   add    $0x5369, %eax
+0x00001be0 <+18>:   mov    %gs:0x14, %eax
+0x00001be6 <+24>:   mov    %eax, -0xc(%ebp)
+0x00001be9 <+27>:   xor    %eax, %eax
+0x00001beb <+29>:   movb   $0x1, -0xd(%ebp)
+0x00001bef <+33>:   lea    0x1fc(%ebp), %edx
+0x00001bf5 <+39>:   lea    0x8(%ebp), %esi
+0x00001bf8 <+42>:   mov    %edx, %edi
+0x00001bfa <+44>:   lods   %ds:(%esi), %al
+0x00001bfb <+45>:   scas   %es:(%edi), %al
+0x00001bfc <+46>:   jne    0x1c04 <c+54>
+0x00001bfe <+48>:   test   %al, %al
+0x00001c00 <+50>:   jne    0x1bfa <c+44>
+0x00001c02 <+52>:   jne    0x1c0a <c+60>
+0x00001c04 <+54>:   movb   $0x0, -0xd(%ebp)
+0x00001c08 <+58>:   jmp    0x1c0e <c+64>
+0x00001c0a <+60>:   movb   $0x1, -0xd(%ebp)
+0x00001c0e <+64>:   movzbl -0xd(%ebp), %eax
+0x00001c12 <+68>:   mov -0xc(%ebp), %edx
+0x00001c15 <+71>:   sub    %gs:0x14, %edx
+0x00001c1c <+78>:   je     0x1c23 <c+85>
+0x00001c1e <+80>:   call   0x3dd0 <__stack_chk_fail_local>
+0x00001c23 <+85>:   add    $0x10, %esp
+0x00001c26 <+88>:   pop    %esi
+0x00001c27 <+89>:   pop    %edi
+0x00001c28 <+90>:   pop    %ebp
+0x00001c29 <+91>:   ret
