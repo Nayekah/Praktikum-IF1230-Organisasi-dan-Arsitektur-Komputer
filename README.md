@@ -20,7 +20,7 @@
 
 ### Praktikum 02-Reverse Engineering
 - Mencari input untuk bypass seluruh check function yang ada di binarynya
-- Ada bom kalau salah
+- Ada bom kalau salah input
 
 ### Praktikum 03-Binary Exploitation (PWN)
 - Exploit binary
@@ -39,6 +39,10 @@ This page is intentionally left blank
 - Learn how integers and floats work
 - Learn C Language
 - Try competitive programming problems
+
+### Praktikum 02
+- Learn how to read assembly language
+- Learn how to use conventional debugger (ex. gdb, peda, pwntools, gef, etc)
 
 ---
 
