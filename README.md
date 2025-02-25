@@ -1,6 +1,6 @@
 # Praktikum-IF1230-Organisasi-dan-Arsitektur-Komputer
 
-![bocchi](https://i.pinimg.com/originals/1c/ec/60/1cec60b076ed3e42a0a253548370a353.gif)
+![ryo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9hq6wU-9_lUFkQ2PTVPQjKLsqJCPNZl7SIQ&s)
 
 
 **Seru Banget woilah😂**
