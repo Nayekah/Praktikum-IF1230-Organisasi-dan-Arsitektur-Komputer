@@ -44,7 +44,7 @@ This page is intentionally left blank
 - Learn how to read assembly language
 - Learn how to use conventional debugger (ex. gdb, peda, pwntools, gef, etc)
 - Learn how the program works with its instruction and procedure (ex. mov, jmp, lea, etc.)
-
+- Learn how datas are stored in stack
 ---
 
 ## 📃 Miscellaneous
