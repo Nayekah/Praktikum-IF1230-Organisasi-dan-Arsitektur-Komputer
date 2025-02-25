@@ -1,0 +1,213 @@
+Dump of assembler code for function len :
+
+0x00002306 <+0>:   push   %ebp
+0x00002307 <+1>:   mov    %esp, %ebp
+0x00002309 <+3>:   sub    $0x14, %esp
+0x0000230c <+6>:   call   0x25d6 <__x86.get_pc_thunk.ax>
+0x00002311 <+11>:  add    $0x4c33, %eax
+0x00002316 <+16>:  mov   0x10(%ebp), -%eax
+0x00002319 <+19>:  mov   %al, -0x14(%ebp)
+0x0000231c <+22>: movl   $0x0, -0x4(%ebp)
+0x00002323 <+29>:  jmp    0x2329 <len+35>
+0x00002325 <+31>:  addl   $0x1, -0x4(%ebp)
+0x00002329 <+35>:  mov    0xc(%ebp), %edx
+0x0000232c <+38>:  mov    -0x4(%ebp), %eax
+0x0000232f <+41>:  add    %edx, %eax
+0x00002331 <+43>:  mov    %eax, %edx
+0x00002333 <+45>:  mov    $0x8(%ebp), %eax
+0x00002336 <+48>:  add     %edx, %eax
+0x00002338 <+50>: movzbl (%eax),%eax
+0x0000233b <+53>:  cmp    %al, -0x14(%ebp)
+0x0000233e <+56>:  je     0x2356 <len+80>
+0x00002340 <+58>:  mov    0xc(%ebp), %edx
+0x00002343 <+61>:  mov    -0x4(%ebp), %eax
+0x00002346 <+64>: add      %edx,%eax
+0x00002348 <+66>:  mov    %eax, %edx
+0x0000234a <+68>:  mov    0x8(%ebp), %eax
+0x0000234d <+71>:  add    %edx, %eax
+0x0000234f <+73>:  movzbl (%eax), %eax
+0x00002352 <+76>:  test   %al, %al
+0x00002354 <+78>:  jne    0x2325 <len+31>
+0x00002356 <+80>:  mov    -0x4(%ebp), %eax
+0x00002359 <+83>:  leave
+0x0000235a <+84>:  ret
+
+
+Dump of assembler code for function exploreGraph :
+
+0x00002098 <+0>:    push   %ebp
+0x00002099 <+1>:    mov    %esp,%ebp
+0x0000209b <+3>:    sub    $0x28,%esp
+0x0000209e <+6>:    call   0x256d <__x86.get_pc_thunk.ax>
+0x000020a3 <+11>:   add    $0x4ea1,%eax
+0x000020a8 <+16>:   cmpl   $0x0,0xc(%ebp)
+0x000020ac <+20>:   jg     0x20d2 <exploreGraph+58>
+0x000020ae <+22>:   mov    0x8(%ebp),%eax
+0x000020b1 <+25>:   movl   $0x0,0x1e4(%eax)
+0x000020bb <+35>:   mov   0x8(%ebp),%eax
+0x000020be <+38>:   movl   $0x0,0x1e8(%eax)
+0x000020c8 <+48>:   mov    $0x0,%eax
+0x000020cd <+53>:   jmp    0x21e1 <exploreGraph+329>
+0x000020d2 <+58>:   mov    0x8(%ebp),%eax
+0x000020d5 <+61>:   mov    0x1e4(%eax),%edx
+0x000020db <+67>:   mov    0x8(%ebp),%eax
+0x000020de <+70>:   add    $0x8,%edx
+0x000020e1 <+73>:   mov    0xc(%eax,%edx,4),%eax
+0x000020e5 <+77>:   mov    %eax,-0x10(%ebp)
+0x000020e8 <+80>:   mov    0x8(%ebp),%eax
+0x000020eb <+83>:   mov    0x28(%eax),%eax
+0x000020ee <+86>:   cmp    $0x1,%eax
+0x000020f1 <+89>:   jle    0x219a <exploreGraph+258>
+0x000020f7 <+95>:   movl   $0x0,-0x1c(%ebp)
+0x000020fe <+102>:  movl   $0x0, -0x18(%ebp)
+0x00002105 <+109>:  mov    0x8(%ebp),%eax
+0x00002108 <+112>:  mov    0x1e4(%eax),%eax
+0x0000210e <+118>:  mov    %eax,-0xc(%ebp)
+0x00002111 <+121>:  mov    0x8(%ebp),%eax
+0x00002114 <+124>:  mov    0x1e8(%eax),%eax
+0x0000211a <+130>:  lea    0x1(%eax),%edx
+0x0000211d <+133>:  mov    0x8(%ebp),%eax
+0x00002120 <+136>:   mov    0x28(%eax),%ecx
+0x00002123 <+139>:   mov    %edx,%eax
+0x00002125 <+141>:   cltd
+0x00002126 <+142>:   idiv   %ecx
+0x00002128 <+144>:   mov    %edx,-0x14(%ebp)
+0x0000212b <+147>:   jmp    0x217d <exploreGraph+229>
+0x0000212d <+149>:   mov    0x8(%ebp),%eax
+0x00002130 <+152>:   mov    0x1e4(%eax),%edx
+0x00002136 <+158>:   mov    0x8(%ebp),%ecx
+0x00002139 <+161>:   mov    %edx,%eax
+0x0000213b <+163>:   shl    $0x2,%eax
+0x0000213e <+166>:   add    %edx,%eax
+0x00002140 <+168>:   add    %eax,%eax
+0x00002142 <+170>:   mov    -0x14(%ebp),%edx
+0x00002145 <+173>: add     %edx, %eax
+0x00002147 <+175>: add     $0x14, %eax
+0x0000214a <+178>: mov     0x4(%ecx, %eax, 4), %eax
+0x0000214e <+182>: test    %eax, %eax
+0x00002150 <+184>: je      0x2169 <exploreGraph+209>
+0x00002152 <+186>: movl    $0x1, -0x1c(%ebp)
+0x00002159 <+193>: mov     0x8(%ebp), %eax
+0x0000215c <+196>: mov     -0x14(%ebp), %edx
+0x0000215f <+199>: mov     %edx, 0x1e4(%eax)
+0x00002165 <+205>: addl    $0x1, -0x18(%ebp)
+0x00002169 <+209>: mov     -0x14(%ebp), %eax
+0x0000216c <+212>: lea     0x1(%eax), %edx
+0x0000216f <+215>: mov     0x8(%ebp),%eax
+0x00002172 <+218>: mov     0x28(%eax), %ecx
+0x00002175 <+221>: mov     %edx, %eax
+0x00002177 <+223>: cltd
+0x00002178 <+224>: idiv    %ecx
+0x0000217a <+226>: mov     %edx, -0x14(%ebp)
+0x0000217d <+229>: mov     0x8(%ebp), %eax
+0x00002180 <+232>: mov     0x28(%eax), %eax
+0x00002183 <+235>: cmp     %eax, -0x18(%ebp)
+0x00002186 <+238>: jge     0x218e <exploreGraph+246>
+0x00002188 <+240>: cmpl    $0x0, -0x1c(%ebp)
+0x0000218c <+244>: je      0x212d <exploreGraph+149>
+0x0000218e <+246>: mov     0x8(%ebp), %eax
+0x00002191 <+249>: mov     -0xc(%ebp), %edx
+0x00002194 <+252>: mov     %edx,0x1e8(%eax)
+0x0000219a <+258>: mov     -0x10(%ebp), %edx
+0x0000219d <+261>: mov     0xc(%ebp), %eax
+0x000021a0 <+264>: add     %edx, %eax
+0x000021a2 <+266>: and     $0x1, %eax
+0x000021a5 <+269>: test    %eax, %eax
+0x000021a7 <+271>: jne     0x21c5 <exploreGraph+301>
+0x000021a9 <+273>: mov     0xc(%ebp), %eax
+0x000021ac <+276>: sub     $0x1, %eax
+0x000021af <+279>: sub     $0x8, %esp
+0x000021b2 <+282>: push    %eax
+0x000021b3 <+283>: push    0x8(%ebp)
+0x000021b6 <+286>: call    0x2098 <exploreGraph>
+0x000021bb <+291>: add     $0x10, %esp
+0x000021be <+294>: mov     -0x10(%ebp), %edx
+0x000021c1 <+297>: add     %edx, %eax
+0x000021c3 <+299>: jmp     0x21e1 <exploreGraph+329>
+0x000021c5 <+301>: mov     0xc(%ebp), %eax
+0x000021c8 <+304>: sub     $0x1, %eax
+0x000021cb <+307>: sub     $0x8, %esp
+0x000021ce <+310>: push    %eax
+0x000021cf <+311>: push    0x8(%ebp)
+0x000021d2 <+314>: call    0x2098 <exploreGraph>
+0x000021d7 <+319>: add     $0x10, %esp
+0x000021da <+322>: mov     %eax, %edx
+0x000021dc <+324>: mov     -0x10(%ebp), %eax
+0x000021df <+327>: sub     %edx, %eax
+0x000021e1 <+329>: leave
+0x000021e2 <+330>: ret
+
+
+Dump of assembler code for function validate :
+
+0x000021e3 <+0>:   push    %ebp
+0x000021e4 <+1>:   mov     %esp, %ebp
+0x000021e6 <+3>:   push    %edi
+0x000021e7 <+4>:   push    %esi
+0x000021e8 <+5>:   push    %ebx
+0x000021e9 <+6>:   sub     $0xc, %esp
+0x000021ec <+9>:   call    0x256d <__x86.get_pc_thunk.ax>
+0x000021f1 <+14>:  add     $0x4d53, %eax
+0x000021f6 <+19>:  cmpl    $0x0, 0x1f8(%ebp)
+0x000021fd <+26>:  jle     0x227d <validate+154>
+0x000021ff <+28>:  mov     0x1f8(%ebp), %eax
+0x00002205 <+34>:  sub     $0x1, %eax
+0x00002208 <+37>:  sub     $0xc, %esp
+0x0000220b <+40>:  push    %eax
+0x0000220c <+41>:  push    0x1f4(%ebp)
+0x00002212 <+47>:  sub     $0x1ec, %esp
+0x00002218 <+53>:  mov     %esp, %eax
+0x0000221a <+55>:  mov     %eax, %ebx
+0x0000221c <+57>:  lea     0x8(%ebp), %eax
+0x0000221f <+60>:  mov     $0x7b, %edx
+0x00002224 <+65>:  mov     %ebx, %edi
+0x00002226 <+67>:  mov     %eax, %esi
+0x00002228 <+69>:  mov     %edx, %ecx
+0x0000222a <+71>:  rep movsl %ds:(%esi), %es:(%edi)
+0x0000222c <+73>:  call    0x21e3 <validate>
+0x00002231 <+78>:  add     $0x200, %esp
+0x00002237 <+84>:  test    %eax, %eax
+0x00002239 <+86>:  je      0x2276 <validate+147>
+0x0000223b <+88>:  mov     0x1f8(%ebp), %edx
+0x00002241 <+94>:  mov     0x1f4(%ebp), %eax
+0x00002247 <+100>: add     %edx, %eax
+0x00002249 <+102>: movzbl  (%eax), %eax
+0x0000224c <+105>: movsbl  %al, %eax
+0x0000224f <+108>: sub     $0x8, %esp
+0x00002252 <+111>: push    %eax
+0x00002253 <+112>: lea     0x8(%ebp), %eax
+0x00002256 <+115>: push    %eax
+0x00002257 <+116>: call    0x2098 <exploreGraph>
+0x0000225c <+121>: add     $0x10, %esp
+0x0000225f <+124>: mov     %eax, %edx
+0x00002261 <+126>: mov     0x1f8(%ebp), %eax
+0x00002267 <+132>: mov     0x8(%ebp, %eax, 4), %eax
+0x0000226b <+136>: cmp     %eax, %edx
+0x0000226d <+138>: jne     0x2276 <validate+147>
+0x0000226f <+140>: mov     $0x1, %eax
+0x00002274 <+145>: jmp     0x22b5 <validate+210>
+0x00002276 <+147>: mov     $0x0, %eax
+0x0000227b <+152>: jmp     0x22b5 <validate+210>
+0x0000227d <+154>: mov     0x1f8(%ebp), %edx
+0x00002283 <+160>: mov     0x1f4(%ebp), %eax
+0x00002289 <+166>: add     %edx, %eax
+0x0000228b <+168>: movzbl  (%eax), %eax
+0x0000228e <+171>: movsbl  %al, %eax
+0x00002291 <+174>: sub     $0x8, %esp
+0x00002294 <+177>: push    %eax
+0x00002295 <+178>: lea     0x8(%ebp), %eax
+0x00002298 <+181>: push    %eax
+0x00002299 <+182>: call    0x2098 <exploreGraph>
+0x0000229e <+187>: add     $0x10, %esp
+0x000022a1 <+190>: mov     %eax, %edx
+0x000022a3 <+192>: mov     0x1f8(%ebp), %eax
+0x000022a9 <+198>: mov     0x8(%ebp, %eax, 4), %eax
+0x000022ad <+202>: cmp     %eax, %edx
+0x000022af <+204>: sete    %al
+0x000022b2 <+207>: movzbl  %al, %eax
+0x000022b5 <+210>: lea     -0xc(%ebp), %esp
+0x000022b8 <+213>: pop     %ebx
+0x000022b9 <+214>: pop     %esi
+0x000022ba <+215>: pop     %edi
+0x000022bb <+216>: pop     %ebp
+0x000022bc <+217>: ret
