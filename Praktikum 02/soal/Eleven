@@ -1,0 +1,106 @@
+Dump of assembler code for function Eleven:
+
+0x00001709 <+0>:   push   %ebp
+0x0000170a <+1>:   mov    %esp,%ebp
+0x0000170c <+3>:   push   %ebx
+0x0000170d <+4>:   sub    $0x44,%esp
+0x00001710 <+7>:   call   0x12b0 <__x86.get_pc_thunk.bx>
+0x00001715 <+12>:  add    $0x582f,%ebx
+0x0000171b <+18>:  mov    0x8(%ebp),%eax
+0x0000171e <+21>:  mov    %eax,-0x3c(%ebp)
+0x00001721 <+24>:  mov    %gs:0x14,%eax
+0x00001727<+30>:  mov     %eax,-0xc(%ebp)
+0x0000172a <+33>:  xor    %eax,%eax
+0x0000172c <+35>:  sub    $0x8,%esp
+0x0000172f <+38>:  lea    -0x28(%ebp),%eax
+0x00001732 <+41>:  push   %eax
+0x00001733 <+42>:  push   -0x3c(%ebp)
+0x00001736 <+45>:  call   0x2828 <feel_like_eleven>
+0x0000173b <+50>:  add    $0x10,%esp
+0x0000173e <+53>:  mov    -0x28(%ebp),%eax
+0x00001741 <+56>:  cmp    $0x1,%eax
+0x00001744 <+59>:  je     0x17b4 <Eleven+66>
+0x00001746 <+61>:  call   0x2d4b <trap>
+0x0000174b <+66>:  movl   $0x1,-0x2c(%ebp)
+0x00001752 <+73>:  jmp    0x1797 <Eleven+142>
+0x00001754 <+75>:  cmpl   $0x4,-0x2c(%ebp)
+0x00001758 <+79>:  jg     0x1772 <Eleven+105>
+0x0000175a <+81>:  mov    -0x2c(%ebp),%eax
+0x0000175d <+84>:  sub    $0x1,%eax
+0x00001760 <+87>:  mov    -0x28(%ebp,%eax,4),%edx
+0x00001764<+91>:  mov     -0x2c(%ebp),%eax
+0x00001767 <+94>: imul   %eax,%eax
+0x0000176a <+97>: imul    -0x2c(%ebp),%eax
+0x0000176e <+101>: cmp    %eax,%edx
+0x00001770 <+103>: jne    0x178e <Eleven+133>
+0x00001772 <+105>: cmpl $0x4, -0x2c(%ebp)
+0x00001776 <+109>: jle   0x1793 <Eleven+138>
+0x00001778 <+111>: mov   -0x2c(%ebp),%eax
+0x0000177b <+114>: sub   %0x1,%eax
+0x0000177e <+117>: mov   -0x28(%ebp,%eax,4),%edx
+0x00001782 <+121>: mov   -0x2c(%ebp),%eax
+0x00001785 <+124>: add   %eax,%eax
+0x00001787 <+126>: add   $0x1%eax
+0x0000178a <+129>: cmp   %eax,%edx
+0x0000178c <+131>: je   0x1793, <Eleven+138>
+0x0000178e <+133>: call   0x2d4b <trap>
+0x00001793 <+138>: addl   $0x1, -0x2c(%ebp)
+0x00001797 <+142>: cmpl   $0x7, -0x2c(%ebp)
+0x0000179b <+146>: jle   0x1754, <Eleven+75>
+0x0000179d <+148>: nop
+0x0000179e <+149>: mov   -0xc(%ebp),%eax
+0x000017a1 <+152>: sub   %gs:0x14,%eax
+0x000017a8 <+159>: je   0x17af <Eleven+166>
+0x000017aa <+161>: call   0x3dd0 <__stack_chk_fail_local>
+0x000017af <+166>: mov   -0x4(%ebp),%ebx
+0x000017b2 <+169>: leave
+0x000017b3 <+170>: ret
+
+Dump of assembler code for function feel_like_eleven:
+
+0x00002828 <+0>:    push   %ebp
+0x00002829 <+1>:    mov    %esp,%ebp
+0x0000282b <+3>:    push   %edi
+0x0000282c <+4>:    push   %esi
+0x0000282d <+5>:    push   %ebx
+0x0000282e <+6>:    sub    $0x2c,%esp
+0x00002831 <+9>:    call   0x13a9 <__x86.get_pc_thunk.dx>
+0x00002836 <+14>:   add    $0x470e,%edx
+0x0000283c <+20>:   mov    0xc(%ebp),%eax
+0x0000283f <+23>:   add    $0x18,%eax
+0x00002842 <+26>:   mov    %eax,-0x2c(%ebp)
+0x00002845 <+29>:   mov    0xc(%ebp),%eax                   
+0x00002848 <+32>:   lea    0x14(%eax),%edi
+0x0000284b <+35>:   mov    0xc(%ebp),%eax
+0x0000284e <+38>:   lea    0x10(%eax),%esi
+0x00002851 <+41>:   mov    0xc(%ebp),%eax
+0x00002854 <+44>:   lea    0xc(%eax),%ebx
+0x00002857 <+47>:   mov    0xc(%ebp),%eax
+0x0000285a <+50>:   lea    0x8(%eax),%ecx
+0x0000285d <+53>:   mov    0xc(%ebp),%eax
+0x00002860 <+56>:   add    $0x4,%eax
+0x00002863 <+59>:   sub    $0xc,%esp
+0x00002866 <+62>:   push   -0x2c(%ebp)
+0x00002869 <+65>:   push   %edi
+0x0000286a <+66>:   push   %esi
+0x0000286b <+67>:   push   %ebx
+0x0000286c <+68>:   push   %ecx
+0x0000286d <+69>:   push   %eax
+0x0000286e <+70>:   push   0xc(%ebp)
+0x00002871 <+73>:   lea    -0x2a4e(%edx),%eax
+0x00002877 <+79>:   push   %eax
+0x00002878 <+80>:   push   0x8(%ebp)
+0x0000287b <+83>:   mov    %edx,%ebx
+0x0000287d <+85>:   call   0x11c0 <__isoc99_sscanf@plt>
+0x00002882 <+90>:   add      $0x30,%esp
+0x00002885 <+93>:   mov     %eax, -0x1c(%ebp)
+0x00002888 <+96>:   cmpl    $0x6, -0x1c(%ebp)
+0x0000288c <+100>:  jg        0x2893 <feel_like_eleven+107>
+0x0000288e <+102>:  call        0x2d4b <trap>
+0x00002893 <+107>:  nop
+0x00002894 <+108>:  lea        -0xc(%ebp),%esp
+0x00002897 <+111>:   pop        %ebx
+0x00002898 <+112>:   pop        %esi
+0x00002899 <+113>:   pop        %edi
+0x0000289a <+114>:   pop        %ebp
+0x0000289b <+115>:   ret
