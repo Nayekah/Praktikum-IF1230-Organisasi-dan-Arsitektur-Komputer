@@ -11,7 +11,7 @@
 
 ---
 
-## 📦 What's Inside?
+## 🔍 What's Inside?
 
 ### Praktikum 01-Bitwise
 - Soal-soalnya mirip competitive programming
