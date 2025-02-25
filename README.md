@@ -16,7 +16,7 @@
 ### Praktikum 01-Bitwise
 - Soal-soalnya mirip competitive programming
 - Bitwise
-- Ada constraints untuk jumlah operationnya
+- Ada constraints untuk jumlah operationnya dan jenis operatornya juga dibatasi
 
 ### Praktikum 02-Reverse Engineering
 - Mencari input untuk bypass seluruh check function yang ada di binarynya
